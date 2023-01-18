@@ -25,8 +25,8 @@ def check_cnt(origin, target):
 
 List = list(map(int, input().split(' ')))
 
-targetList = [1, 1, 2, 2, 2, 8]
-for origin, target in zip(List, targetList):
+target_list = [1, 1, 2, 2, 2, 8]
+for origin, target in zip(List, target_list):
     print(check_cnt(origin, target), end=' ')
 
 # 2588 곱셈
